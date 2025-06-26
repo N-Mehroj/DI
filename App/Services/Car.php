@@ -9,13 +9,13 @@ class Car
     protected $country;
     protected $engine;
 
-    public function __construct(Engine $engine, $color, $model, $maxSeed, $country)
+    public function __construct(Engine $engine)
     {
          $this->engine = $engine;
-         $this->color = $color;
-         $this->model = $model;
-         $this->maxSeed = $maxSeed;
-         $this->country = $country;
+//         $this->color = $color;
+//         $this->model = $model;
+//         $this->maxSeed = $maxSeed;
+//         $this->country = $country;
     }
     public function seed($km)
     {
